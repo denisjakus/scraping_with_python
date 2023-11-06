@@ -27,6 +27,7 @@ def put_watermark(watermark_pdf_file, pdf_file):
 
         with open(f'{CONST_PDF_ROOT_DIRECTORY}watermarked.pdf',"wb") as watermarked_pdf:
             output_pdf.write(watermark_pdf)
+            print(f'File watermarked: {watermark_pdf}')
 
 
 
