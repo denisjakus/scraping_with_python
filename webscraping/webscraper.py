@@ -2,6 +2,7 @@ import sys
 import re
 from bs4 import BeautifulSoup
 import requests
+import pprint
 
 
 def is_valid_url(url):
@@ -24,6 +25,7 @@ def scrape_url(url):
     print(points[0])
     t = create_custom_hacker_news(titles,points)
     # print(res.text)
+    pprint.pprint(t)
     return
 
 def create_custom_hacker_news(links,votes):
