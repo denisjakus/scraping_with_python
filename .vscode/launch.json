@@ -12,7 +12,9 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             //"args": ["Pokedex", "new"],
-            "args": ["test"],
+            // "args": ["test"],
+            // "args": ["https://e-brojevi.udd.hr/e_brojevi.htm"],
+            "args": ["https://news.ycombinator.com/news"],
         }
     ]
 }
